@@ -18,4 +18,5 @@ st.write(df)
 # data_top = data.head()
 # data_top
 
-st.image('curious_dog.jpg', caption="'Live, laugh, love, AWS.' - AWS Dog")
+object_url = 'https://aws-bucket1-polyjb.s3.amazonaws.com/curious_dog.jpg'
+st.image(object_url, caption="'Live, laugh, love, AWS.' - AWS Dog")
