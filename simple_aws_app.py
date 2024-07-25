@@ -10,7 +10,7 @@ import pandas as pd
 
 st.title('AWS Dog')
 
-data = ('Health_AnimalBites.csv')
+data = 'https://aws-bucket1-polyjb.s3.amazonaws.com/Health_AnimalBites.csv'
 df = pd.read_csv(data)
 df.drop(['BreedIDDesc', 'head_sent_date', 'release_date'], axis=1, inplace=True)
 st.write(df)
